@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SpendWise" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#1B4FD8</item>
+        <item name="colorPrimaryVariant">#1440B0</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#00C2A8</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Theme.SpendWise.NoActionBar" parent="Theme.SpendWise">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">#1B4FD8</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- your existing styles stay here, don't touch them -->
+
+    <style name="DarkAlertDialog" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:background">#111827</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="colorPrimary">#3B82F6</item>
+        <item name="colorAccent">#3B82F6</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#7C8DB5</item>
+        <item name="android:windowTitleStyle">@style/DarkAlertDialog.Title</item>
+    </style>
+
+    <style name="DarkAlertDialog.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
